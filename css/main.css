@@ -1,0 +1,259 @@
+@page {
+    size: Letter;
+    margin: 0in 0.44in 0.2in 0.44in;
+}
+
+.header {
+    height: 106px;
+    width: 100%;
+    background: #0046FF;
+}
+
+.relevel-text {
+    color: white;
+    font-family: Proxima Nova;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.header-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-img {
+    margin-top: 20px;
+}
+
+.pt30 {
+    padding-top: 30px;
+}
+
+.pt106 {
+    padding-top: 106px;
+}
+
+.m0 {
+    margin: 0;
+}
+
+.name-text {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.name {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 62px;
+    color: #0500FF;
+}
+
+.pt87 {
+    padding-top: 87px;
+}
+
+.pb34 {
+    padding-bottom: 34px;
+}
+
+.mt41 {
+    margin-top: 41px;
+}
+
+.score {
+    width: 283px;
+    height: 283px;
+    background: #0046FF;
+    border-radius: 50%;
+    position: relative;
+}
+
+.relevel-score {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.r-mark {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.mb22 {
+    margin-bottom: 22px;
+}
+
+.score-div {
+    position: absolute;
+    top: 30%;
+    left: 12%;
+}
+
+.score-container {
+    width: 319px;
+    height: 319px;
+    border-radius: 50%;
+    border: 3px solid #8D8AFF;
+    padding: 15px;
+}
+
+.float-right {
+    float: right;
+}
+
+.border-bottom-blue {
+    border-bottom: 2px solid #0046FF;
+}
+
+.border-bottom-l-blue {
+    border-bottom: 2px solid rgba(0, 70, 255, 0.2);
+}
+
+.pb43 {
+    padding-bottom: 43px;
+}
+
+.skill-text {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 51px;
+    color: #000000;
+}
+
+.pt47 {
+    padding-top: 47px;
+}
+
+.score-text {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 51px;
+}
+
+.skill-name {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 37px;
+    line-height: 54px;
+    color: #0500FF;
+}
+
+.skill-score {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36.76px;
+    line-height: 54px;
+    text-align: right;
+    color: #0500FF;
+}
+
+.skill-desc {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 33px;
+    color: rgba(40, 40, 40, 0.75);
+    padding-top: 17px;
+}
+
+.pb50 {
+    padding-bottom: 150px;
+}
+
+.footer {
+    height: 110px;
+    background: #0046FF;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .mob-font-36 {
+        font-size: 36px !important;
+    }
+
+    .mob-font-24 {
+        font-size: 24px !important;
+    }
+
+    .score {
+        width: 215px !important;
+        height: 215px !important;
+    }
+
+    .r-mark {
+        font-size: 30px !important;
+    }
+
+    .score-container {
+        width: 250px !important;
+        height: 250px !important;
+    }
+
+    .relevel-score {
+        font-size: 24px !important;
+    }
+
+    .mob-m-auto {
+        margin: auto !important;
+        float: none !important;
+    }
+
+    .skill-text {
+        font-family: Proxima Nova;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px !important;
+        line-height: 51px;
+        color: #000000;
+    }
+
+    .score-text {
+        font-family: Proxima Nova;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 51px;
+    }
+
+    .skill-name {
+        font-family: Proxima Nova;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 54px;
+        color: #0500FF;
+    }
+
+    .skill-score {
+        font-family: Proxima Nova;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 54px;
+        text-align: right;
+        color: #0500FF;
+    }
+}
